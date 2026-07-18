@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-07-18T11:35:12",
+  "source": "C:\\Users\\topac\\.workbuddy",
+  "items": [
+    {
+      "path": "workbuddy.db",
+      "size": 69632,
+      "tables": [
+        "automation_runs",
+        "automation_runtime_state",
+        "automations",
+        "migration_meta",
+        "session_usage",
+        "sessions",
+        "workspaces"
+      ],
+      "rows": {
+        "automation_runs": 0,
+        "automation_runtime_state": 0,
+        "automations": 0,
+        "migration_meta": 11,
+        "session_usage": 8,
+        "sessions": 9,
+        "workspaces": 5
+      },
+      "note": "consistent online backup via sqlite3.backup(); automations live here"
+    },
+    {
+      "path": "skills/",
+      "files": 3
+    },
+    {
+      "path": "memory/",
+      "files": 2
+    },
+    {
+      "path": ".mcp.json",
+      "size": 226
+    },
+    {
+      "path": "settings.json",
+      "size": 654
+    },
+    {
+      "path": "MEMORY.md",
+      "size": 756
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "claw": {
+    "channels": {},
+    "users": {
+      "a4753eed-5a56-46b2-9f76-4b3ff6cbc485": {
+        "channels": {
+          "wechatmp": {
+            "enabled": true,
+            "connectionMode": "webhook",
+            "artifactUploadEnabled": true
+          }
+        }
+      }
+    },
+    "legacyOwnerUid": "a4753eed-5a56-46b2-9f76-4b3ff6cbc485"
+  },
+  "sandbox": {
+    "extraAllowWrite": [
+      "~/.tencent-cloudq",
+      "~/.andonq",
+      "~/.xiaoe-cloud",
+      "~/.config/wecom/",
+      "~/.lark-cli",
+      "~/.lark-channel/",
+      "~/.dws",
+      "/tmp/dws-cache",
+      "~/.tmeet",
+      "~/Library/Application Support/tmeet"
+    ]
+  }
+}
